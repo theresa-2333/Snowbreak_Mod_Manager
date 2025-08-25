@@ -5,7 +5,7 @@
 
 ### 简介
 
-**Snowbreak Mod Manager** 是一个专为《尘白禁区》（Snowbreak: Containment Zone）玩家设计的、功能强大且易于使用的 Mod 管理工具。它由 Gemini 与 theresa-2333 共同开发，旨在帮助玩家轻松管理他们的游戏 Mod，包括安装、启用、禁用和分类，从而大大简化 Mod 的使用流程。
+**Snowbreak Mod Manager** 是一个专为《尘白禁区》（Snowbreak: Containment Zone）玩家设计的、功能强大且易于使用的 Mod 管理工具。由 Gemini 与theresa-2333 共同开发，旨在帮助玩家轻松管理他们的游戏 Mod，包括安装、启用、禁用和分类，从而大大简化 Mod 的使用流程。
 
 ### 主要功能
 
@@ -23,7 +23,7 @@
 
       * 首次启动时，程序会要求你设置一个 Mod 的存放路径。
       * 你可以通过主界面的“更改...”按钮随时修改此路径。
-      * **重要提示**：此路径应独立于游戏安装目录，程序会自动将 Mod 复制到此路径下，并通过重命名来控制启用/禁用。
+      * **重要提示**：此路径应设置为游戏根目录下的Game\Content\Paks\~mods目录，程序会自动将 Mod 复制到此路径下，并通过重命名来控制启用/禁用。
 
 2.  **添加 Mod**：
 
@@ -48,7 +48,9 @@
       * 程序会提示你确认删除，并永久删除存放路径中的 Mod 文件。
 
 ### 依赖与安装
+普通用户直接安装Releases的最新程序使用
 
+开发者
 此工具需要 Python 3 和 PyQt5 库。
 
 ```bash
@@ -56,7 +58,7 @@
 pip install PyQt5
 
 # 运行程序
-python mod_manager_v3.py
+python mod_manager_v0.2.py
 ```
 
 ### 未来计划
@@ -77,6 +79,6 @@ python mod_manager_v3.py
 
 -----
 
-\<p align="center"\>
-\<sub\>这是一个开源项目，欢迎 Star 和 Fork！\</sub\>
-\</p\>
+
+这是一个开源项目，欢迎 Star 和 Fork！
+
