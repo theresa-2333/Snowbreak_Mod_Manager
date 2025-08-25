@@ -1,7 +1,7 @@
 ## Snowbreak Mod Manager
 
 \<p align="center"\>
-\<img width="1263" height="769" alt="image" src="https://github.com/user-attachments/assets/42313986-0691-4c08-8ea4-91202cd64c3d" alt="Snowbreak Mod Manager Screenshot" width="600"/>
+\<img width="1263" height="769" alt="image" src="https://github.com/user-attachments/assets/42313986-0691-4c08-8ea4-91202cd64c3d" alt="Snowbreak Mod Manager Screenshot" width="600"\>
 \</p\>
 
 ### 简介
