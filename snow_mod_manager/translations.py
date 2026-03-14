@@ -12,12 +12,13 @@ TRANSLATIONS = {
         "category_dialog_title": "设置 Mod 分类",
         "select_image_title": "选择图片",
         "select_mod_file_title": "选择 Mod 文件",
-        "select_folder_title": "选择存放路径",
+        "select_category_image": "选择分类图片:",
         
         # Labels and Placeholders
         "mod_storage_path": "Mod 存放路径:",
-        "primary_category": "一级分类 (角色名):",
-        "secondary_category": "二级分类 (角色皮肤):",
+        "primary_category": "一级分类 (角色):",
+        "secondary_category": "二级分类 (装甲):",
+        "tertiary_category": "三级分类 (服装):",
         "mod_tree_header": "Mod 分类",
         "tree_uncategorized": "未分类",
         "tree_default": "默认",
@@ -29,6 +30,8 @@ TRANSLATIONS = {
         "button_browse": "更改...",
         "button_add_mod": "添加新 Mod...",
         "button_delete_mod": "删除选中 Mod",
+        "button_enable_selected": "启用选中 Mod",
+        "button_disable_selected": "禁用选中 Mod",
         "button_toggle_theme": "切换主题",
         "button_about": "关于",
         "button_change_image": "更换图片",
@@ -53,7 +56,7 @@ TRANSLATIONS = {
         "warning_select_mod": "请选择一个要删除的 Mod 项目。",
         "warning_select_before_image": "请先选择一个 Mod。",
         "warning_invalid_category": "分类无效",
-        "warning_invalid_category_desc": "必须提供一级和二级分类。",
+        "warning_invalid_category_desc": "必须提供一级、二级和三级分类。",
         "warning_file_exists": "文件已存在",
         "warning_file_exists_desc": "名为 '{filename}' 的文件已存在于目标分类中。",
         
@@ -70,6 +73,7 @@ TRANSLATIONS = {
         # Messages - Confirmation
         "confirm_delete": "确认删除",
         "confirm_delete_desc": "确定要永久删除 Mod '{name}' 吗？\n这将从磁盘删除文件，此操作不可撤销。",
+        "confirm_delete_desc_multi": "确定要永久删除选中的 {count} 个 Mod 吗？\n这些文件将从磁盘删除，此操作不可撤销。",
         
         # File filters
         "file_filter_all": "所有文件 (*)",
@@ -95,6 +99,15 @@ TRANSLATIONS = {
         "theme_settings": "主题设置",
         "path_settings": "路径设置",
         "button_apply": "应用",
+        "language_changed_title": "语言已更改",
+        "language_changed_desc": "语言设置已保存。部分界面文本将在重启应用后完全生效。",
+        "mod_status_enabled": "已启用",
+        "mod_status_disabled": "已禁用",
+        "mod_status_missing": "文件丢失",
+        "mod_setup_dialog_title": "设置 Mod 信息",
+        "mod_setup_name_hint": "名称",
+        "mod_setup_note_hint": "描述",
+        "warning_multi_mod_in_costume": "【{costume}】服装下启用了多个 Mod",
     },
     
     "en_US": {
@@ -104,12 +117,13 @@ TRANSLATIONS = {
         "category_dialog_title": "Set Mod Category",
         "select_image_title": "Select Image",
         "select_mod_file_title": "Select Mod File",
-        "select_folder_title": "Select Storage Path",
+        "select_category_image": "Select Category Image:",
         
         # Labels and Placeholders
         "mod_storage_path": "Mod Storage Path:",
-        "primary_category": "Primary Category (Character Name):",
-        "secondary_category": "Secondary Category (Character Skin):",
+        "primary_category": "Primary Category (Character):",
+        "secondary_category": "Secondary Category (Armor):",
+        "tertiary_category": "Tertiary Category (Costume):",
         "mod_tree_header": "Mod Categories",
         "tree_uncategorized": "Uncategorized",
         "tree_default": "Default",
@@ -121,6 +135,8 @@ TRANSLATIONS = {
         "button_browse": "Browse...",
         "button_add_mod": "Add New Mod...",
         "button_delete_mod": "Delete Selected Mod",
+        "button_enable_selected": "Enable Selected",
+        "button_disable_selected": "Disable Selected",
         "button_toggle_theme": "Toggle Theme",
         "button_about": "About",
         "button_change_image": "Change Image",
@@ -145,7 +161,7 @@ TRANSLATIONS = {
         "warning_select_mod": "Please select a Mod to delete.",
         "warning_select_before_image": "Please select a Mod first.",
         "warning_invalid_category": "Invalid Category",
-        "warning_invalid_category_desc": "Both primary and secondary categories are required.",
+        "warning_invalid_category_desc": "Primary, secondary, and tertiary categories are required.",
         "warning_file_exists": "File Already Exists",
         "warning_file_exists_desc": "A file named '{filename}' already exists in the target category.",
         
@@ -162,6 +178,7 @@ TRANSLATIONS = {
         # Messages - Confirmation
         "confirm_delete": "Confirm Delete",
         "confirm_delete_desc": "Are you sure you want to permanently delete Mod '{name}'?\nThis will delete the file from disk and cannot be undone.",
+        "confirm_delete_desc_multi": "Are you sure you want to permanently delete the selected {count} Mods?\nThese files will be deleted from disk and cannot be undone.",
         
         # File filters
         "file_filter_all": "All Files (*)",
@@ -187,6 +204,15 @@ TRANSLATIONS = {
         "theme_settings": "Theme Settings",
         "path_settings": "Path Settings",
         "button_apply": "Apply",
+        "language_changed_title": "Language Updated",
+        "language_changed_desc": "Your language preference has been saved. Some texts will fully update after restarting the application.",
+        "mod_status_enabled": "Enabled",
+        "mod_status_disabled": "Disabled",
+        "mod_status_missing": "File Missing",
+        "mod_setup_dialog_title": "Set Mod Info",
+        "mod_setup_name_hint": "Name",
+        "mod_setup_note_hint": "Description",
+        "warning_multi_mod_in_costume": "Multiple mods enabled under costume 【{costume}】",
     }
 }
 
