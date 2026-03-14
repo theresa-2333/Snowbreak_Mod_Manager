@@ -1,4 +1,5 @@
-<img width="1273" height="756" alt="v0 2 2 en img" src="https://github.com/user-attachments/assets/90e7a776-7f99-4abd-8e2c-59a0d3b65341" />
+<img width="1273" height="756" alt="v0 2 2 en img" src="https://github.com/theresa-2333/Snowbreak_Mod_Manager/blob/main/en_img1.png" />
+<img width="1273" height="756" alt="v0 2 2 en img" src="https://github.com/theresa-2333/Snowbreak_Mod_Manager/blob/main/en_img2.png" />
 
 
 -----
@@ -7,7 +8,7 @@
 
 ### Introduction
 
- **Snowbreak Mod Manager** is a powerful and easy-to-use Mod management tool designed specifically for players of **Snowbreak: Containment Zone**. Developed by theresa-2333, it aims to help players easily manage their game Mods, including installation, enabling, disabling, and classification, significantly simplifying the process of using Mods.
+ **Snowbreak Mod Manager** is a powerful and easy-to-use Mod management tool designed specifically for players of **Snowbreak: Containment Zone**. it aims to help players easily manage their game Mods, including installation, enabling, disabling, 和 classification, significantly simplifying the process of using Mods.
 
 ### Key Features
 
