@@ -1,6 +1,7 @@
 ## Snowbreak Mod Manager
 
-<img width="1271" height="747" alt="v0 2 2 zh img" src="https://github.com/user-attachments/assets/57c22f57-4f51-4a49-af91-d2507cbfe929" />
+<img width="1271" height="747" alt="v0 2 2 zh img" src="https://github.com/theresa-2333/Snowbreak_Mod_Manager/blob/main/zh_img1.png" />
+<img width="1271" height="747" alt="v0 2 2 zh img" src="https://github.com/theresa-2333/Snowbreak_Mod_Manager/blob/main/zh_img2.png" />
 
 [English version](https://github.com/theresa-2333/Snowbreak_Mod_Manager/blob/main/README_EN.md)
 
