@@ -1,4 +1,4 @@
-<img width="1273" height="756" alt="v0 2 1 en img" src="https://github.com/user-attachments/assets/90e7a776-7f99-4abd-8e2c-59a0d3b65341" />
+<img width="1273" height="756" alt="v0 2 2 en img" src="https://github.com/user-attachments/assets/90e7a776-7f99-4abd-8e2c-59a0d3b65341" />
 
 
 -----
@@ -13,7 +13,7 @@
 
   * **Centralized Management**: All Mods are managed within one intuitive interface, eliminating the need for manual drag-and-drop and file confusion.
   * **One-Click Enable/Disable**: Easily check or uncheck a Mod to enable or disable it, without the need for manual file renaming.
-  * **Flexible Classification System**: Organize your Mods by custom classifications like character names and skins, making searching and management more efficient.
+  * **Flexible Classification System**: Organize your Mods by custom classifications (Character → Armor → Costume), making searching and management more efficient.
   * **Detail Preview**: Add custom names, notes, and preview images for each Mod, allowing you to quickly identify the content and effect of the Mod.
   * **Smart Path Management**: Automatically manages the storage path of Mod files, keeping your game directory neat and organized.
   * **Theme Switching**: Supports light and dark themes to accommodate different user preferences.
@@ -32,7 +32,8 @@
 
       * Click the "Add New Mod..." button.
       * Select your Mod file.
-      * In the pop-up window, select or create a primary classification (usually the character name) and a secondary classification (usually the skin name) for your Mod.
+      * In the pop-up window, select or create a primary classification (usually the character name), a secondary classification (usually the armor name), and a tertiary classification (usually the costume name) for your Mod.
+      * You can also set the Mod name, notes, and preview image in the same dialog.
       * Click "OK." The Mod file will be copied to your set storage path and will appear in the management list.
 
 3.  **Manage Mods**:
@@ -41,7 +42,7 @@
       * The panel on the right will display the Mod's detailed information.
       * You can modify the Mod name and notes.
       * Click "Change Image" to add or modify the Mod's preview image.
-      * Check or uncheck the "Enable Mod" checkbox to enable or disable it.
+      * It is recommended to enable or disable it through the main interface's "Enable Selected Mod" and "Disable Selected Mod" options.
       * Click "Save Changes" to save your modifications.
 
 4.  **Delete a Mod**:
@@ -62,7 +63,7 @@
     pip install PyQt5
 
     # Run the program
-    python mod_manager_v0.2.1.py
+    python mod_manager_v0.2.2.py
     ```
 
 ### Future Plans
@@ -71,7 +72,16 @@ We welcome any feedback, suggestions, and contributions from the community. Plea
 
 
 ### Update Log
+**Version 0.2.2**
 
+  * Added conflict warning: the UI now shows a notice if multiple mods are enabled for the same costume.
+  * Added search function (supports searching within 3rd-level categories and below).
+  * Added 3-level classification (Character → Armor → Costume) and grid navigation (click a costume to show mods).
+  * Updated UI styling.
+  * Added support for setting mod name/description/image during the add-mod flow.
+  
+
+-----
 **Version 0.2**
 
   * Added custom Mod storage path functionality.
